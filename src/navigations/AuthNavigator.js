@@ -2,7 +2,7 @@ import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
 import SigninScreen from "../screens/signinScreen/SigninScreen";
 import SignupScreen from "../screens/signupScreen/SignupScreen";
-import HomeBottomNavigator from "./HomeNavigator";
+import HomeBottomNavigator from "./HomeBottomNavigator";
 import ResolveAuthScreen from "../screens/resolveAuthScreen";
 import TrackDetailScreen from "../screens/trackDetailScreen/TrackDetailScreen";
 

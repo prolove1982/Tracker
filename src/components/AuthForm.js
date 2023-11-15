@@ -3,13 +3,7 @@ import React, { useState } from "react";
 import { styles } from "./styles";
 import Spacer from "./Spacer";
 
-const AuthForm = ({
-  headerText,
-  errorMessage,
-  onSubmit,
-  submitButtonText,
-  navigation,
-}) => {
+const AuthForm = ({ headerText, errorMessage, onSubmit, submitButtonText }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 

@@ -9,7 +9,11 @@ const BottomTab = createBottomTabNavigator();
 const HomeBottomNavigator = () => {
   return (
     <BottomTab.Navigator screenOptions={{ headerShown: false }}>
-      <BottomTab.Screen name="List" component={TrackListScreen} />
+      <BottomTab.Screen
+        name="List"
+        component={TrackListScreen}
+        options={{ tabBarShowLabel: false }}
+      />
       <BottomTab.Screen name="Create" component={TrackCreateScreen} />
       <BottomTab.Screen name="Account" component={AccountScreen} />
     </BottomTab.Navigator>
